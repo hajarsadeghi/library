@@ -1,0 +1,23 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Become a fullstack web developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Hajar Sadeghi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
